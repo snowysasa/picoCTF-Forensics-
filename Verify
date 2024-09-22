@@ -1,2 +1,5 @@
-SSH with the given credentials. Accept the fingerprint with yes,and enter the given password. `ls`   
-
+SSH with the given credentials. Accept the fingerprint with yes,and enter the given password. `ls` to view contents of connection.
+'cat checksum.txt'. `sha256sum files/*` to cross check each files. ` sha256sum files/* | grep "03b52eabed517324828b9e09cbbf8a7b0911f348f76cf989ba6d51acede6d5d8" `.
+see the contents of the target file `$file  files/00011a60'.
+decrypt the file _$./decrypt.sh files/00011a60_
+picoCTF{trust_but_verify_00011a60}
